@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: fonte;
+    src: url(../fonts/Questrial-Regular.ttf);
+}
+
+body{
+    background-image: url(../assets/gas.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+font-size: large;
+font-weight: 1500;
+color: aliceblue;
+}
+
+
+.container{
+    font-family:fonte;
+    font-size: 1.8rem;
+    background-color: rgba(92, 146, 110, 0.932);
+    max-width: 450px;
+    padding: 50px;
+    margin:auto ;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+h1{
+    margin-bottom: 10px;
+    font-weight: bold;
+      display: inline-block;
+    margin-bottom: 20px;
+   
+}
+
+
+
+input{
+    font-weight: bold;
+    font-size: 1rem;
+    display: block;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width:100px;
+    border-style: none;
+    
+}
+input:focus{
+    outline-color: rgba(92, 146, 110, 0.932);
+
+}
+
+p{ 
+    font-size: 1.5rem;
+    font-weight: lighter;
+
+}
+
+button{
+    border-style: none;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgba(221, 217, 166, 0.932);
+    border-radius: 10px;
+    padding: 4px;
+}
+button:hover{
+    background-color:rgba(158, 198, 224, 0.932);
+}
+
+.howtocalc{
+    font-family:fonte;
+    font-size: 1rem;
+    background-color: rgba(92, 146, 110, 0.932);
+    max-width: 450px;
+    max-height: 300px;
+    padding: 50px;
+    margin:auto ;
+    margin-top: 20px;
+    margin-bottom:50px;
+    border-radius: 50px;
+    overflow:auto;
+    
+}
+
+
+#botao{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -40%);
+    padding: 10px;
+}
+
+#valeir{
+    position: relative;
+    transform: translate(15%);
+    padding: 10px;
+}

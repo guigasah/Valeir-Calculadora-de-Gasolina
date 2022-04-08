@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icon.png" >
+    <title>Vale ir? Calculadora de Gasolina</title>
+
+    <head>
+
+
+    <body>
+
+
+        <div class="container">
+            <img id="valeir" src="./assets/valeir.png" alt="">
+            <h1>Calcule o quanto você vai gastar de gasolina! <h1>
+
+                    <p>Informe a distância para onde deseja ir (km)</p>
+                    <input id="distance" name="distance" type="number" placeholder="ex:33km">
+
+                    <p>Valor da Gasolina(R$)</p>
+                    <input id="gas" name="gas" type="number"  min="0" placeholder="ex:7,39">
+
+                    <p>Consumo do veículo(km/L)</p>
+                    <input id="consumo" name="consumo" type="number"  min="0" placeholder="ex:9 km/l">
+
+                    <button onClick="calcular()">calcular</button>
+                    <button onClick="limpar()">limpar</button>
+
+                    <div id="resultado"></div>
+
+
+        </div>
+        <br>
+        <button id="botao" type="button" onclick="Mudarestado('como')">Como é calculado?</button>
+
+        <div id="como" class="howtocalc" style="display:none">
+            <h1>Como é feita a calculadora?</h1>
+            </br>
+            <h4>Calcular a gasolina é simples!</h4>
+            </br>
+               <p>
+                Saber quanto gasta de gasolina a cada quilômetro percorrido é simples!
+
+                Divida o valor médio do litro de gasolina pelo consumo médio do carro. <br>
+
+                
+                Ex: Se a gasolina custa em média R$5,70 e o consumo médio do carro é de 12km/litro a conta fica:
+                
+                5,70/12 = 0,43 é o valor gasto por km. </p>
+            </ul> </br>
+        </div>
+
+
+
+        <script src="./script/script.js"></script>
+
+    </body>
+
+</html>
